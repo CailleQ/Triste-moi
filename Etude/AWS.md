@@ -1,3 +1,4 @@
+[home](./AllForOne.MD)
 ## EC2
 ### EC2 实例与竞价实例
 

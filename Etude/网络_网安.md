@@ -1,0 +1,1 @@
+[home](./AllForOne.MD)
