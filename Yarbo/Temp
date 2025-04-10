@@ -5,7 +5,7 @@
     cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_A090.zip . &&  unzip -o map_A090.zip -d . 
 
     #S3上传
-    sudo aws s3 cp my.sh.YARBO  s3://yarbo-support/Diagnostic+tools/my.sh.YARBO
+    sudo aws s3 cp run.py  s3://yarbo-support/Diagnostic+tools/run.py
 
 cat my.sh.YARBO 
 dst=$1
