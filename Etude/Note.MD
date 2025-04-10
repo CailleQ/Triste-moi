@@ -5,6 +5,7 @@
 ## Fondation
 
 ## AWS
+[查看 AWS 相关笔记](./AWS.md)
 ## 网络/网安
 
 ## Algorithm
