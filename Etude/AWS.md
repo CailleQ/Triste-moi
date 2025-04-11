@@ -47,8 +47,23 @@ EBS 快照:
 - **函数蓝图**
 - **数据库访问**
 - **文件系统访问** 
-
-
-### 配置测试事件
+#### 配置测试事件
 最初的测试事件: 提供JSON格式的请求
 可在CloudWatch中看到对lambda函数的监控，包括日志等信息
+
+```bash
+//boto3 是AMI的sdk
+import boto3
+def lambda_handler(event,context)：
+    ec2 = boto3.client('ec2',region_name = 'us-east-1')
+    EC2status = ec2.describe_instance-status(IncludeAllInstances = True)
+
+    for i in EC2status["InstanceStatuses"]:
+        instanceId = list(i["InstanceID"].split())
+        if i ["InstanceID"]["Name"] == "running" :
+            ec2.stop_instances(InstanceIds = instanceID)
+            #关闭ec2实例
+        elif  i ["InstanceID"]["Name"] == "stopped" :
+            ec2.terminate_instances(InstanceIds = instanceID)
+            #终止ec2实例
+```
