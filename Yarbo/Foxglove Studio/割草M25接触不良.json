@@ -1,0 +1,225 @@
+{
+  "configById": {
+    "Plot!15a5fum": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info03.left_blade_motor_speed",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Left Blade Throttle(Duty-Cycle)"
+    },
+    "Plot!x0w3qj": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info03.left_blade_motor_rpm",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Left Blade Speed(RPM)"
+    },
+    "Plot!10td4e5": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info03.left_blade_motor_current",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Left Blade Cur(0.01A)"
+    },
+    "Plot!187kv41": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.body_msg.body_stop_button_state",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Body Emergency"
+    },
+    "Plot!27ol5d9": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info04.right_blade_motor_speed",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Right Blade Throttle(Duty-Cycle)"
+    },
+    "Plot!3w9lktg": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info04.right_blade_motor_rpm",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Right Blade Speed(RPM)"
+    },
+    "Plot!2ka69f5": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.head_msg.head_stop_singnal_state",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Mower Emergency"
+    },
+    "Plot!2c21qpd": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.mower_head_info04.right_blade_motor_current",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Right Blade Current(0.01A)"
+    },
+    "Plot!25utyv0": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.head_msg.head_crash_sensor",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Mower Collision"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": {
+        "first": {
+          "first": "Plot!15a5fum",
+          "second": "Plot!x0w3qj",
+          "direction": "column"
+        },
+        "second": "Plot!10td4e5",
+        "direction": "column",
+        "splitPercentage": 65.82381770162795
+      },
+      "second": "Plot!187kv41",
+      "direction": "row"
+    },
+    "second": {
+      "first": {
+        "first": {
+          "first": "Plot!27ol5d9",
+          "second": "Plot!3w9lktg",
+          "direction": "column"
+        },
+        "second": "Plot!2ka69f5",
+        "direction": "row"
+      },
+      "second": {
+        "first": "Plot!2c21qpd",
+        "second": "Plot!25utyv0",
+        "direction": "row"
+      },
+      "direction": "column",
+      "splitPercentage": 64.3137226249934
+    },
+    "direction": "column",
+    "splitPercentage": 49.02039034190058
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "configById": {
+    "Plot!ojzbuw": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.front_collision",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": true,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": "Plot!ojzbuw"
+}

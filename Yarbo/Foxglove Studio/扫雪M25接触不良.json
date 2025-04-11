@@ -1,0 +1,152 @@
+{
+  "configById": {
+    "Plot!15a5fum": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/cmd_roller.linear.x",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Cmd Roller"
+    },
+    "Plot!187kv41": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.body_msg.body_stop_button_state",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Body Emergency"
+    },
+    "Plot!27ol5d9": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.snow_roller_motor",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Roller Speed"
+    },
+    "Plot!2ka69f5": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.head_msg.head_stop_singnal_state",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Snowblower Emergency"
+    },
+    "Plot!2c21qpd": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.elec.brushless_motor_current",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Roller Current"
+    },
+    "Plot!25utyv0": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.head_msg.head_crash_sensor",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Snowblower Collision"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": "Plot!15a5fum",
+      "second": "Plot!187kv41",
+      "direction": "row"
+    },
+    "second": {
+      "first": {
+        "first": "Plot!27ol5d9",
+        "second": "Plot!2ka69f5",
+        "direction": "row"
+      },
+      "second": {
+        "first": "Plot!2c21qpd",
+        "second": "Plot!25utyv0",
+        "direction": "row"
+      },
+      "direction": "column",
+      "splitPercentage": 50.171819332746026
+    },
+    "direction": "column",
+    "splitPercentage": 30.18792378829904
+  }
+}

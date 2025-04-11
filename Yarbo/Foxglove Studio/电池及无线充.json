@@ -1,0 +1,283 @@
+{
+  "configById": {
+    "Plot!q6cz3p": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.capacity",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery SoC (%)"
+    },
+    "Plot!1elyrje": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.voltage",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery Vol (mV)"
+    },
+    "Plot!2gum4dd": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wireless_recharge.output_voltage",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "WLC Vol (10mV)"
+    },
+    "Plot!3ghay0f": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wireless_recharge.state",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "WLC status"
+    },
+    "Plot!48ob1pq": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.status",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery Status"
+    },
+    "Plot!mnm4b8": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.heating_status",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery Heating Status"
+    },
+    "Plot!2qbt1q0": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.current",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery Cur (mA)"
+    },
+    "Plot!3xde73m": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.battery.temperature1",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Battery Temperature 1 (℃)"
+    },
+    "Plot!27gwl1a": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wireless_recharge.output_current",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "WLC Cur (10mA)"
+    },
+    "Plot!18mkg7b": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.elec_navigation_front_right_sensor",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "EM Navigator L"
+    },
+    "Plot!3oxk1oj": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wireless_recharge.temperature",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "WLC Temperature (readValue-40℃)"
+    },
+    "Plot!xd5i53": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.elec_navigation_rear_right_sensor",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "EM Navigator R"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": {
+        "first": "Plot!q6cz3p",
+        "second": "Plot!1elyrje",
+        "direction": "column"
+      },
+      "second": {
+        "first": "Plot!2gum4dd",
+        "second": "Plot!3ghay0f",
+        "direction": "column"
+      },
+      "direction": "column"
+    },
+    "second": {
+      "first": {
+        "first": {
+          "first": "Plot!48ob1pq",
+          "second": "Plot!mnm4b8",
+          "direction": "row"
+        },
+        "second": {
+          "first": "Plot!2qbt1q0",
+          "second": "Plot!3xde73m",
+          "direction": "row"
+        },
+        "direction": "column"
+      },
+      "second": {
+        "first": {
+          "first": "Plot!27gwl1a",
+          "second": "Plot!18mkg7b",
+          "direction": "row"
+        },
+        "second": {
+          "first": "Plot!3oxk1oj",
+          "second": "Plot!xd5i53",
+          "direction": "row"
+        },
+        "direction": "column"
+      },
+      "direction": "column"
+    },
+    "direction": "row",
+    "splitPercentage": 32.99546545745532
+  }
+}

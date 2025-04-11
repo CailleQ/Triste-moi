@@ -1,8 +1,8 @@
-    cd ~/.ros && zip -r map_A090.zip base.json dc.json chargingData_convert_ok gps_ref.json charingData.json convert_ok yarbo_map
+    cd ~/.ros && zip -r map_7120.zip base.json dc.json chargingData_convert_ok gps_ref.json charingData.json convert_ok yarbo_map
 
-    cd ~/.ros && sudo aws s3 cp ~/.ros/map_A090.zip s3://yarbo-support/map_upload/map_A090.zip
+    cd ~/.ros && sudo aws s3 cp ~/.ros/map_7120.zip s3://yarbo-support/map_upload/map_7120.zip
  
-    cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_A090.zip . &&  unzip -o map_A090.zip -d . 
+    cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_7120.zip . &&  unzip -o map_7120.zip -d . 
 
     #S3上传
     sudo aws s3 cp run.py  s3://yarbo-support/Diagnostic+tools/run.py
@@ -18,3 +18,9 @@ ssh -o 'proxycommand socat - PROXY:127.0.0.1:%h:%p,proxyport=6000' firefly@${dst
 cat my.sh.firefly 
 dst=$1
 ssh -o 'proxycommand socat - PROXY:127.0.0.1:%h:%p,proxyport=6000' firefly@${dst}.yb.com
+
+
+
+1.网络方案 组网
+2.主路由器的 连dc的型号
+3.先用局域网

@@ -1,0 +1,245 @@
+{
+  "configById": {
+    "Plot!3gsekqc": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/cmd_vel.linear.x",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Cmd Vel x"
+    },
+    "Plot!j2xaiq": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wheel_speed.left",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Speed L"
+    },
+    "Plot!21hqdzb": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.elec.lwheel_current",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Cur L"
+    },
+    "Plot!1yyw5hz": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.right_walk_motor_temp",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Temp L"
+    },
+    "Plot!3tlktfv": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.left_walk_driver_temp",
+          "enabled": true,
+          "color": "#4e98e2",
+          "label": ""
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "MOS Temp L"
+    },
+    "Plot!12125be": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/cmd_vel.angular.z",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Cmd Vel z"
+    },
+    "Plot!2bzi6np": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.wheel_speed.right",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Speed R"
+    },
+    "Plot!1phfgi3": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.elec.rwheel_current",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Cur R"
+    },
+    "Plot!2kam0w8": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.right_walk_motor_temp",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "Wheel Temp R"
+    },
+    "Plot!1901g86": {
+      "paths": [
+        {
+          "timestampMethod": "receiveTime",
+          "value": "/YarboSerialMSG.running_status.right_walk_driver_temp",
+          "enabled": true,
+          "color": "#4e98e2"
+        }
+      ],
+      "showXAxisLabels": true,
+      "showYAxisLabels": true,
+      "showLegend": false,
+      "legendDisplay": "floating",
+      "showPlotValuesInLegend": false,
+      "isSynced": true,
+      "xAxisVal": "timestamp",
+      "sidebarDimension": 240,
+      "foxglovePanelTitle": "MOS Temp R"
+    }
+  },
+  "globalVariables": {},
+  "userNodes": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "layout": {
+    "first": {
+      "first": "Plot!3gsekqc",
+      "second": {
+        "first": "Plot!j2xaiq",
+        "second": {
+          "first": "Plot!21hqdzb",
+          "second": {
+            "first": "Plot!1yyw5hz",
+            "second": "Plot!3tlktfv",
+            "direction": "column"
+          },
+          "direction": "column",
+          "splitPercentage": 37.07037272897548
+        },
+        "direction": "column",
+        "splitPercentage": 23.910334421704864
+      },
+      "direction": "column",
+      "splitPercentage": 21.081079816523832
+    },
+    "second": {
+      "first": "Plot!12125be",
+      "second": {
+        "first": "Plot!2bzi6np",
+        "second": {
+          "first": "Plot!1phfgi3",
+          "second": {
+            "first": "Plot!2kam0w8",
+            "second": "Plot!1901g86",
+            "direction": "column"
+          },
+          "direction": "column",
+          "splitPercentage": 37.07037272897548
+        },
+        "direction": "column",
+        "splitPercentage": 23.910334421704864
+      },
+      "direction": "column",
+      "splitPercentage": 21.081079816523832
+    },
+    "direction": "row"
+  }
+}
