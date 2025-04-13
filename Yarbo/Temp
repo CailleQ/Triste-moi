@@ -5,7 +5,7 @@
     cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_7120.zip . &&  unzip -o map_7120.zip -d . 
 
     #S3上传
-    sudo aws s3 cp run.py  s3://yarbo-support/Diagnostic+tools/run.py
+    sudo aws s3 cp MowScripts.zip  s3://yarbo-support/Diagnostic+tools/MowScripts.zip
 
 cat my.sh.YARBO 
 dst=$1
@@ -20,7 +20,3 @@ dst=$1
 ssh -o 'proxycommand socat - PROXY:127.0.0.1:%h:%p,proxyport=6000' firefly@${dst}.yb.com
 
 
-
-1.网络方案 组网
-2.主路由器的 连dc的型号
-3.先用局域网

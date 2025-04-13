@@ -1,0 +1,60 @@
+****************烧录车身板固件说明****************
+烧录步骤：
+    1.进入“(...)/hostscripts/Scripts/”目录
+    2.把车身板固件文件(.bin)复制到该目录
+    3.执行“python3 ./IAP_Body.py”命令
+注意事项：
+    1.车身板固件文件的开头应该是Body
+    2.如果执行命令后发生类似如下报错，原因大概率是没有进入“(...)/hostscripts/Scripts/”目录
+        File "(...)/hostscripts/Scripts/IAP_Body.py", line xx, in <module>
+            from IAP import iapMain
+        ModuleNotFoundError: No module named 'IAP'
+    3.在烧录过程中可能会发生以下错误
+        0x10：车身板应答下载超时
+        0x83：等待复位应答超时
+        0x84：等待复位超时
+
+
+****************烧录车头板固件说明****************
+烧录步骤：
+    1.进入“(...)/hostscripts/Scripts/”目录
+    2.把车头板固件文件(.bin)复制到该目录
+    3.执行“python3 ./IAP_Head.py”命令
+注意事项：
+    1.车头板固件文件的开头应该是Head
+    2.如果执行命令后发生类似如下报错，原因大概率是没有进入“(...)/hostscripts/Scripts/”目录
+        File "(...)/hostscripts/Scripts/IAP_Head.py", line xx, in <module>
+            from IAP import iapMain
+        ModuleNotFoundError: No module named 'IAP'
+    3.在烧录过程中可能会发生以下错误
+        0x10：车头板应答下载超时
+        0x83：等待复位应答超时
+        0x84：等待复位超时
+        0x96：车身板与车头板连接失败
+        0x70：i2c连接车头板超时
+
+
+****************逻辑测试说明****************
+测试步骤：
+    1.进入“(...)/hostscripts/Scripts/”目录
+    2.执行“python3 ./LogicalUnitTest.py”命令
+    3.输入相应的序号进行各项测试
+注意事项：
+    1.如果执行命令后发生类似如下报错，原因大概率是没有进入“(...)/hostscripts/Scripts/”目录
+        File "(...)/hostscripts/Scripts/LogicalUnitTest.py", line xx, in <module>
+            from LogicalFuncs import *
+        ModuleNotFoundError: No module named 'LogicalFuncs'
+
+
+****************固件参数设置说明****************
+设置步骤：
+    1.进入“(...)/hostscripts/Scripts/”目录
+    2.执行“vim ./parmList.txt”命令检查或修改参数列表中各个参数的值，然后保存退出vim
+    3.执行“python3 ./SetFlashParm.py”命令
+注意事项：
+    1.如果执行命令后发生类似如下报错，原因大概率是没有进入“(...)/hostscripts/Scripts/”目录
+        File "(...)/hostscripts/Scripts/SetFlashParm.py", line xx, in <module>
+            from ParmSet import parmSet
+        ModuleNotFoundError: No module named 'ParmSet'
+    2.每次设置完参数后要重启电源
+    
