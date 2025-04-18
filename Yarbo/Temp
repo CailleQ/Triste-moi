@@ -1,8 +1,8 @@
-    cd ~/.ros && zip -r map_7120.zip base.json dc.json chargingData_convert_ok gps_ref.json charingData.json convert_ok yarbo_map
+    cd ~/.ros && zip -r map_A639.zip base.json dc.json chargingData_convert_ok gps_ref.json charingData.json convert_ok yarbo_map
 
-    cd ~/.ros && sudo aws s3 cp ~/.ros/map_7120.zip s3://yarbo-support/map_upload/map_7120.zip
+    cd ~/.ros && sudo aws s3 cp ~/.ros/map_A639.zip s3://yarbo-support/map_upload/map_A639.zip
  
-    cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_7120.zip . &&  unzip -o map_7120.zip -d . 
+    cd ~/.ros && sudo aws s3 cp s3://yarbo-support/map_upload/map_A639.zip . &&  unzip -o map_A639.zip -d . 
 
     #S3上传
     sudo aws s3 cp MowScripts.zip  s3://yarbo-support/Diagnostic+tools/MowScripts.zip
@@ -19,4 +19,9 @@ cat my.sh.firefly
 dst=$1
 ssh -o 'proxycommand socat - PROXY:127.0.0.1:%h:%p,proxyport=6000' firefly@${dst}.yb.com
 
+
+D070010208  履带填充块1
+D070010209	履带填充块2
+A050010612	螺丝盘头十字带垫自攻螺丝
+15/15/60
 
